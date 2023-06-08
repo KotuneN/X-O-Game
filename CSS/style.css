@@ -113,13 +113,13 @@ a{
 }
 
 .github{
-    background-image: url(/CSS/img/icons8-github.svg);
+    background-image: url(../CSS/img/icons8-github.svg);
 }
 .vk{
-    background-image: url(/CSS/img/icons8-vk.svg);
+    background-image: url(../CSS/img/icons8-vk.svg);
 }
 .tg{
-    background-image: url(/CSS/img/icons8-телеграм.svg);
+    background-image: url(../CSS/img/icons8-телеграм.svg);
 }
 
 /* mob version*/
