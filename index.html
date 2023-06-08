@@ -11,52 +11,50 @@
 </head>
 
 <body>
+    <div class="contentFull">
+        <header class="header">
+            <div class="blok-header">
+                <div class="menu">
+                    <div class="menuXO">X</div>
+                    <div>Игра крестики и нолики By KotuneN </div>
+                    <div class="menuXO">O</div>
+                </div>
 
-    <header class="header">
-        <div class="blok-header">
-            <div class="menu">
-                <div class="menuXO">X</div>
-                <div>Игра крестики и нолики By KotuneN </div>
-                <div class="menuXO">O</div>
+            </div>
+        </header>
+        <div class="main-content">
+            <div class="currentPlayer">
+                <span>Ход: <span id="curPlayer"></span></span>
             </div>
 
-        </div>
-    </header>
+            <div class='content'>
 
-    <div class="currentPlayer">
-        <span>Ход: <span id="curPlayer"></span></span>
-    </div>
-
-    <div class='content'>
-
-        <div id='area'></div>
-        <div class="stat">
-            <table>
-                <th colspan="2">Статистика</th>
-                <tr>
-                    <td>X</td>
-                    <td><span id="wX">0</span></td>
-                </tr>
-                <tr>
-                    <td>O</td>
-                    <td><span id="wO">0</span></td>
-                </tr>
-                <tr>
-                    <td>Ничья</td>
-                    <td><span id="xo">0</span></td>
-                </tr>
-            </table>
+                <div class="area" id='area'></div>
+                <div class="stat">
+                    <table>
+                        <th colspan="2">Статистика</th>
+                        <tr>
+                            <td>X</td>
+                            <td><span id="wX">0</span></td>
+                        </tr>
+                        <tr>
+                            <td>O</td>
+                            <td><span id="wO">0</span></td>
+                        </tr>
+                        <tr>
+                            <td>Ничья</td>
+                            <td><span id="xo">0</span></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
         </div>
 
-        <script src="JS/main.js"></script>
-    </div>
-    <footer class="footer">
         <div class="main-footer">
             <div class="logo">
                 KotuneN © 2023
             </div>
             <div class="comp">
-
             </div>
             <div class="info">
                 <a href="https://github.com/KotuneN">
@@ -70,7 +68,10 @@
                 </a>
             </div>
         </div>
-    </footer>
+
+    </div>
+
+    <script src="JS/main.js"></script>
 </body>
 
 </html>

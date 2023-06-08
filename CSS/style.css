@@ -4,6 +4,13 @@
    
 }
 
+.contentFull{
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
 header {
     padding-bottom: 20px;
     
@@ -86,14 +93,18 @@ header {
     text-align: center;
 }
 
+footer{
+    margin-top: auto;
+}
+
 .main-footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
     border-top: 1px solid #000;
-    position: absolute;
     bottom: 0;
+    left: 0;
 }
 
 a{
@@ -110,16 +121,24 @@ a{
     line-height: 60px;
     font-size: 70px;
     }
+    .content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .stat{
         margin-left: 0;
-        margin-top: 250px;
+        position: relative;
+        margin-top: 20px;
     }
     .content{
         justify-content: center;
     }
     .main-footer{
-        margin-top: 200px;
-        position: inherit;
+
+    }
+    #area{
+        width: 220px;
     }
 
 }
