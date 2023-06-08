@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X/O - GAME</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" href="/image/favicon.ico" type="icon">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="blok-header">
+            <div class="menu">
+                <div class="menuXO">X</div>
+                <div>Игра крестики и нолики By KotuneN </div>
+                <div class="menuXO">O</div>
+            </div>
+
+        </div>
+    </header>
+
+    <div class="currentPlayer">
+        <span>Ход: <span id="curPlayer"></span></span>
+    </div>
+
+    <div class='content'>
+
+        <div id='area'></div>
+        <div class="stat">
+            <table>
+                <th colspan="2">Статистика</th>
+                <tr>
+                    <td>X</td>
+                    <td><span id="wX">0</span></td>
+                </tr>
+                <tr>
+                    <td>O</td>
+                    <td><span id="wO">0</span></td>
+                </tr>
+                <tr>
+                    <td>Ничья</td>
+                    <td><span id="xo">0</span></td>
+                </tr>
+            </table>
+        </div>
+
+        <script src="JS/main.js"></script>
+    </div>
+    <footer class="footer">
+        <div class="main-footer">
+            <div class="logo">
+                KotuneN © 2023
+            </div>
+            <div class="comp">
+
+            </div>
+            <div class="info">
+                <a href="https://github.com/KotuneN">
+                    <img src="/image/icons8-github.svg" alt="github">
+                </a>
+                <a href="https://vk.com/kotune">
+                    <img src="/image/icons8-vk.svg" alt="vk">
+                </a>
+                <a href="https://t.me/KotuneN">
+                    <img src="/image/icons8-телеграм.svg" alt="tg">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
